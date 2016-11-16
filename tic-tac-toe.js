@@ -10,3 +10,13 @@ function createShape() {
  var canvas = document.getElementById("game-board")
  canvas.appendChild(newShape)
 }
+var shapeClicked = "no"
+function runCode() {
+  if (shapeClicked == "no") {
+    shapeClicked == "yes"
+  }
+}
+function createSquare() {
+  var newSquare = document.createElementNS(namespace, "square")
+  newSquare.steAttribute("")
+}
